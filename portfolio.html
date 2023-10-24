@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="images/profile.jpeg" style="width:100%"> -->
+  <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a> -->
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#games" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>MY GAMES (fun time !!!) </p>
+  </a>
+  <!-- <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a> -->
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <!-- <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a> -->
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#games" class="w3-bar-item w3-button" style="width:25% !important">MY GAMES (fun time!!!)</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  
+
+  <div class="row w3-container w3-padding-32 w3-center w3-black"  id="about">
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64 col-sm-8">
+      <h2 class="w3-text-light-grey">Marietta Ngwe Akumbom</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p> 
+        I am a Full Stack .NET Developer with over 5 years of experience and a Certified Microsoft Azure DevOps Engineer. 
+        Over the past 5 years, I have been working for the Cameroon Baptist Health Services in developing and maintaining tools for tracking HIV/AIDS patients.
+        I also participate in hackathons. In July 2022, my team emerged winner (1st place) of the SITA Hackathon challenge aimed at implementing solutions to transform the air travel industry.
+        <br/>
+        Apart from work, I love music, singing, watching movies and travelling
+      </p>
+      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+      <p class="w3-wide"></p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+      </div>
+      <p class="w3-wide">C#</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+      <p class="w3-wide">.NET Framework</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      </div>
+      <p class="w3-wide">Microsoft SQL Server</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      </div>
+      <p class="w3-wide">HTML5/Boostrap3</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">angularjs</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">JavaScript</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      </div>
+      <p class="w3-wide">Azure DevOps</p>
+      
+    </div>
+    <div class="col-sm-4 w3-content w3-justify w3-text-grey w3-padding-64">
+      <!-- <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Marietta Ngwe Akumbom.</h1> -->
+      <p>.NET| Winforms | Certified Microsoft Azure DevOps Engineer</p>
+      <img src="images/profile.jpeg" alt="boy" class="w3-image" width="400" height="300">
+    </div>
+  </div>
+
+  
+  <!-- Portfolio Section -->
+
+  <div class="row w3-container w3-padding-32 w3-center" id="projects">
+    <div id="winforms" class=" w3-amber" align="left">
+
+      <h1><span><a href="https://github.com/marietta-a/TTS">I. Text-To-Speech (TTS) Application </a></span>(Winforms)</h1>
+      <br>
+  
+      <div class="row">
+        <div class="col-sm-12">
+          <strong>Techologies Used:</strong> <br>
+          1. Dev Express
+          2. Microsoft Speech Synthesis
+          3. Microsoft Translate API <br><br>
+          <strong>Project Features:</strong> <br>
+          1. Translates text from one language to another using Microsoft Translate API (Default being from English to French) <br>
+          2. Possibility to read translated file as an audio through the use of Microsoft Speech synthesis (either a male or a female voice could be selected. The default being female voice) <br>
+          3. Possibility to import a text/pdf file for translation <br>
+          4. Possibility to export translated text as an audio file <br>
+        </div>
+  
+        <div class="cols-sm-12">
+          <br> <br>
+          <div id="tts" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#tts" data-slide-to="0" class="active"></li>
+              <li data-target="#tts" data-slide-to="1"></li>
+              <li data-target="#tts" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+        
+              <div class="item active">
+                <img src="images/winform/tts.PNG" alt="Los Angeles" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <p>Home view</p>
+                </div>
+              </div>
+        
+              <div class="item">
+                <img src="images/winform/tts_2.PNG" alt="Chicago" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <p>Translation view</p>
+                </div>
+              </div>
+          
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#tts" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#tts" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br> <br> <br>
+
+    <div id="devops" class=" w3-green" align="left">
+
+      <h1><span><a href="https://github.com/marietta-a/Give-Your-Application-Auto-Deploy-Superpowers">II. Giving applications auto-deploy super powers </a></span>(DEVOPS)</h1>
+      <br>
+  
+      <div class="row">
+        <div class="col-sm-12">
+            In this project, I Utilized; <br>
+            <strong>CircleCI </strong> to design and build CI/CD pipelines that support Continuous Delivery processes; <br>
+            <strong>Ansible</strong> to accomplish deployment to aws; <br>
+            <strong> Prometheus</strong> and <strong>Alert Manager</strong> to surface critical server errors for diagnosis using centralized structured logging. <br>
+        </div>
+  
+        <div class="cols-sm-12">
+          <br> <br>
+          <div id="auto-deploy" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#auto-deploy" data-slide-to="0" class="active"></li>
+              <li data-target="#auto-deploy" data-slide-to="1"></li>
+              <li data-target="#auto-deploy" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+        
+              <div class="item active">
+                <img src="images/auto-deploy/SCREENSHOT08.JPG" alt="Los Angeles" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>CI/CD pipelines with CircleCI</h3>
+                  <p>Deploying web application using CirclCI</p>
+                </div>
+              </div>
+        
+              <div class="item">
+                <img src="images/auto-deploy/SCREENSHOT09.JPG" alt="Chicago" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>CI/CD pipelines with CircleCI</h3>
+                  <p>Deploying web application using CirclCI</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/SCREENSHOT10.JPG" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>CI/CD pipelines with CircleCI</h3>
+                  <p>Deploying web application using CirclCI</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/SCREENSHOT11.JPG" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <p></p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/SCREENSHOT12.JPG" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>Alert Manager</h3>
+                  <p>Generating alerts using Alert Manager</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/URL03_SCREENSHOT.JPG" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>AWS</h3>
+                  <p>CloudFront Distribution</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/URL04_SCREENSHOT.png" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>API</h3>
+                  <p>API Status</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/auto-deploy/URL05_SCREENSHOT.png" alt="New York" style="width:100%; height: 600px;">
+                <div class="carousel-caption">
+                  <h3>Monitoring with Prometheus</h3>
+                  <p>Monitoring appliction using Prometheus</p>
+                </div>
+              </div>
+          
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#auto-deploy" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#auto-deploy" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity"> -->
+
+    <!-- Grid for photos -->
+    <!-- <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div> -->
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content w3-red" id="games">
+    <div class="w3-animate-left">
+      <h2>PLAY TIME !!!!! </h2>
+      <di class="row">
+        <div class="col-sm-4">
+          <a href="https://candy-crush-react-jj5wsolmq-marietta-a.vercel.app/">
+            <img src="images/games/candy.PNG" style="width: 100px; height: 100px;">
+            <p>play with some candies</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://marietta-tic-tac-toe.vercel.app/">
+            <img src="images/games/tic-tac-toe.PNG" style="width: 100px; height: 100px;">
+            <p>have fun with tic-tac-toe</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://marietta-simple-calculator.vercel.app/">
+            <img src="images/games/calculator.PNG" style="width: 100px; height: 100px;">
+            <p>use a calculator</p>
+          </a>
+        </div>
+
+      </di>
+    </div><br>
+  </div>
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Bamenda, Cameroon</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +237 655917322</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: msquad095@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="mailto:msquad095@gmail.com" method="post" enctype="text/plain">
+      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p> -->
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      <!-- </p> -->
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->
+    <a href="https://www.linkedin.com/in/mariettangwe/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <!-- <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+
+
+<script>
+  $('.carousel').carousel()
+</script>
+</html>
